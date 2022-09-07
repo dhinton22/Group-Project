@@ -1,7 +1,11 @@
 # Group-Project
 
+## Overview of Project 
 
-## Main Problems:
+Netflix is a subscription based streaming service offering online streaming from a library of films and television series, including those produced in-house. This project is meant to give some ______ on the Netflix movies and TV shows data sourced from kaggle  (_link_)
+
+
+## Main Problems/Questions:
 
 - The total number of Netflix subscribers is declining for the first time in a decade.
 - Competitors brought compelling services to market, and the video streaming pioneer couldn't keep up.
