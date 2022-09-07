@@ -5,7 +5,10 @@
 Netflix is a subscription-based streaming service that offers online streaming from a library of movies and TV series, including some from its own production. This project is intended to provide some ______ data about Netflix ____  obtained from kaggle (_link_)
 
 
+
 ## Main Problems/Questions:
+
+According to kaggle, the goal of this project is to perform ____
 
 - The total number of Netflix subscribers is declining for the first time in a decade.
 - Competitors brought compelling services to market, and the video streaming pioneer couldn't keep up.
