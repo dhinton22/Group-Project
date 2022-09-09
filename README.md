@@ -36,4 +36,4 @@ it will be changed later in project
 
 ## Database
 
-SQL database
+SQL database 
