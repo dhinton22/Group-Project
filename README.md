@@ -1,4 +1,4 @@
-# DC Crime in Metropolitan area
+# Crime in DC Metropolitan area
 
 ## Overview of Final Project
 
