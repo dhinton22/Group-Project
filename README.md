@@ -1,8 +1,8 @@
-# Group-Project
+# DC Metro Crime
 
 ## Overview of Project 
 
-Netflix is a subscription-based streaming service that offers online streaming from a library of movies and TV series, including some from its own production. This project is intended to provide some ______ data about Netflix ____  obtained from kaggle (_link_)
+
 
 
 
