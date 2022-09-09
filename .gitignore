@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 # Ignored Files
 .DS_Store
+=======
+# Ignored Files
+.DS_Store
+>>>>>>> cc1dd0df3cf78faf0fdd54d79d8e3407e40cad2b
 *.csv
