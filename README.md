@@ -30,10 +30,14 @@ Transit stations are recognized as especially criminogenic areas. These stations
 
 ## Machine Learning Model
 
-right now it seems to be ...... model
- 
-it will be changed later on 
+violent vs non-violent
+most common crimes commited
+GUN crimes on metro
+Most Dangerous Shift as DC Metro PD
 
 ## Database
 
-SQL database 
+SQL database (Postgres)
+Mapbox
+WeatherPy
+Tableau
