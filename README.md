@@ -36,3 +36,6 @@ The first steps are to investigate and clean our dataset using a Jupyter noteboo
 The following image is a provisional ERD we will use to ctreate tables on PostgreSQL
 ![DC_Crime.png](https://github.com/dhinton22/Group-Project/blob/Ana/Crime_ERD.png) 
 
+
+![Schema.png](https://github.com/dhinton22/Group-Project/blob/Ana/Schema.png)
+
