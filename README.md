@@ -68,3 +68,6 @@ The following image is a provisional ERD we will use to ctreate tables on Postgr
 ![DC_Crime.png](https://github.com/dhinton22/Group-Project/blob/Ana/Crime_ERD.png) 
 
 
+
+![Schema.png](https://github.com/dhinton22/Group-Project/blob/Ana/Schema.png)
+
