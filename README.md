@@ -9,7 +9,7 @@ Main goal of our project is to create a dashboard to analyse crime patterns in W
 
 ### Key Deliverables
 
-Understand patterns and gain insight into crimes in the DC police system to show trends over certain period of time (we could write here:  compare before and after Financial Crisis of 2008).
+Understand patterns and gain insight into crimes in the DC police system to show trends over certain period of time.
 
 ### Source of data
 
@@ -26,7 +26,7 @@ After extracting dataset, we will start cleaning the dataset to get a complete a
 
 ## Summary 
 
-Transit stations are recognized as especially criminogenic areas. These stations can serve as "generators" of crime because they combine large volumes of people in certain geographic regions and times. They can also serve as "attractors" to criminals providing opportunities for crime. To reflect trends in crime, the number of crimes divided into ..... ( we could divide by areas or times like three time groups: peak hours, off-peak daytime hours and off-peak night hours). Main the DC police system includes theft, arson, assault, murder, sexual assault, robbery and burglary had a large dataset that includes when and where the incident occurred, what shift, type of offense and method used.
+Transit stations are recognized as especially criminogenic areas. These stations can serve as "generators" of crime because they combine large volumes of people in certain geographic regions and times. They can also serve as "attractors" to criminals providing opportunities for crime. To reflect trends in crime, the number of crimes, we could divide by areas or times like three time groups: peak hours, off-peak daytime hours and off-peak night hours. Main the DC police system includes theft, arson, assault, murder, sexual assault, robbery and burglary had a large dataset that includes when and where the incident occurred, what shift, type of offense and method used.
 
 
 ## Machine Learning Model
