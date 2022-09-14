@@ -1,0 +1,15 @@
+DC Metro Crime
+
+data modeling:
+- violent vs non-violent
+- most comon crimes commited
+- Gun crimes on metro
+- Most Dangerous Shift
+- voting precincts that need targeting to get better laws
+
+
+machine learning clustering
+time series - predicting crimes in future based on patterns overtime
+
+PCA 
+K-Means clustering
