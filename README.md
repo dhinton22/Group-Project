@@ -4,7 +4,7 @@
 
 ### Project Goal
 
-Main goal of our project is to create a dashboard to analyse crime patterns in Washington DC.
+Main goal of our project is to create a dashboard to analyse crime patterns in Washington DC. The presentation can be found here https://docs.google.com/presentation/d/1mw8nR32yU31KWpRjtfkAfK77qa5F_RMN_7IqjVhvO6o/edit?usp=sharing
 
 ### Reason why they selected their topic 
 
