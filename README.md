@@ -5,7 +5,7 @@
 
 ### Project Goal
 
-Main goal of our project is to create a dashboard to analyse crime patterns in Washington DC from 2008 to 2017.
+Main goal of our project is to create a dashboard to analyse crime patterns in Washington DC from 2018-current. The presentation can be found here https://docs.google.com/presentation/d/1mw8nR32yU31KWpRjtfkAfK77qa5F_RMN_7IqjVhvO6o/edit?usp=sharing
 
 ### Key Deliverables
 
