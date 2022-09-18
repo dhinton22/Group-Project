@@ -13,3 +13,16 @@ time series - predicting crimes in future based on patterns overtime
 
 PCA 
 K-Means clustering
+
+A common application of unsupervised learning is to group customers by purchasing patterns.
+
+Supervised learning can be broadly divided into regression and classification
+
+- classification - reduce # of years to include in model? 
+
+
+build interactive dashboard plot points based on time range 
+- javascript or flask 
+- python for flask 
+
+
