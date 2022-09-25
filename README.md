@@ -57,7 +57,7 @@ Alternatively, after working on the preprocessing steps of this project, we may 
 SQL database (Postgres)
 Mapbox
 WeatherPy
-Tableau
+Tableau (https://public.tableau.com/views/DCMetroCrimeFinal/CrimeMapperPSA?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 #### Provisional Database 
 
