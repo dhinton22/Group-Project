@@ -45,6 +45,8 @@ Following few examples of Machine Learning Model we used
 
 ### Linear Regression Model
 
+
+
 ![Linear model](https://user-images.githubusercontent.com/66500222/192357430-b2b0fd88-a4df-4885-8f0d-493a65fcf585.png)
 
 ![Linear model 2 png ](https://user-images.githubusercontent.com/66500222/192357001-b5c6e4c6-f27e-4981-81c1-4d0522e22545.png)
@@ -61,6 +63,11 @@ To use the random forest model, we will first need to pre-process the data into 
 
 After evaluating the model we can also calculate and rank the feature importance within the random forest model. This will tell us which features of the data are the best in contributing to the accurate prediction of violent vs non-violent crime. 
 
+![Random ](https://user-images.githubusercontent.com/66500222/192363820-1109cb5d-55c4-4d8a-b195-3dc69ab491f9.png)
+
+### KNN 
+
+![knn ](https://user-images.githubusercontent.com/66500222/192363862-76abdf30-f90e-44f7-af8f-bf56e88c4d99.png)
 
 
 #### Principal Component Analysis
