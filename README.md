@@ -36,11 +36,12 @@ Transit stations are recognized as especially criminogenic areas. These stations
 
 A crime is an intentional act that may cause physical or psychological harm, as well as property damage or damage, and may be punished by the state or other authority, depending on the gravity of the crime. The number and forms of criminal activity are growing at an alarming rate, forcing departments to develop effective methods of preventive measures. In the current scenario of a rapid increase in crime, traditional methods of solving crimes cannot work because they are slow and less effective. Thus, if we can come up with ways to predict crime, or come up with a “machine” that can assist police officers, it would lift the burden of police and help in preventing crimes. A machine learning method that excels at solving classification and prediction problems have also been shown to be a useful tool for dealing with big data driven environments such as law enforcement.
 
-violent vs non-violent
-most common crimes commited
-GUN crimes on metro
-Most Dangerous Shift as DC Metro PD
+- violent vs non-violent
+- most common crimes commited
+- GUN crimes on metro
+- Most Dangerous Shift as DC Metro PD
 
+### 
 
 #### Random Forest Classifier Model
 With crime data, there is a significant imbalance in the data when looking at violent vs non-violent crime.  In the Washington DC Crime dataset that we are analyzing here, there are 342,868 total crimes, where 62,339 or 18% are classified as violent crime.  
