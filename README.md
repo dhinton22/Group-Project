@@ -5,11 +5,11 @@
 
 ### Project Goal
 
-Main goal of our project is to create a dashboard to analyse crime patterns in Washington DC from 2008 to 2017.
+Main goal of our project is to create a dashboard to analyse crime patterns in Washington DC from 2020-2021.
 
 ### Key Deliverables
 
-Understand patterns and gain insight into crimes in the DC police system to show trends over certain period of time (we could write here:  compare before and after Financial Crisis of 2008).
+Understand patterns and gain insight into crimes in the DC police system to show trends over certain period of time. 
 
 ### Source of data
 
@@ -30,6 +30,8 @@ Transit stations are recognized as especially criminogenic areas. These stations
 
 
 ## Machine Learning Model
+
+A crime is an intentional act that may cause physical or psychological harm, as well as property damage or damage, and may be punished by the state or other authority, depending on the gravity of the crime. The number and forms of criminal activity are growing at an alarming rate, forcing departments to develop effective methods of preventive measures. In the current scenario of a rapid increase in crime, traditional methods of solving crimes cannot work because they are slow and less effective. Thus, if we can come up with ways to predict crime, or come up with a “machine” that can assist police officers, it would lift the burden of police and help in preventing crimes. A machine learning method that excels at solving classification and prediction problems have also been shown to be a useful tool for dealing with big data driven environments such as law enforcement.
 
 violent vs non-violent
 most common crimes commited
