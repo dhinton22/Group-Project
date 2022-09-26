@@ -18,6 +18,30 @@ After extracting dataset, we will start cleaning the dataset to get a complete a
 
 Our presentation can be found here https://docs.google.com/presentation/d/1mw8nR32yU31KWpRjtfkAfK77qa5F_RMN_7IqjVhvO6o/edit?usp=sharing
 
+Dashboard located here https://public.tableau.com/views/DCMetroCrimeFinal/CrimeMapperPSA?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
+### Technology used
+
+- Machine Learning
+
+  - Linear Regression
+
+  - Logistic Regression
+
+  - Classification and Regression Trees - Decision Trees
+
+  - K-Nearest Neighbors
+
+  - Random Forest
+
+- Python Pandas
+
+- Matplotlib
+
+- Postgres
+
+- Tableau
+
 ### Questions we hope to answer (Motivation/Reason/Purpose)
 
 - Help solve and prevent crimes
