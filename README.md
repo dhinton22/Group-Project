@@ -38,10 +38,19 @@ A crime is an intentional act that may cause physical or psychological harm, as 
 
 - violent vs non-violent
 - most common crimes commited
-- GUN crimes on metro
 - Most Dangerous Shift as DC Metro PD
+- Most Dangerous areas
 
-### 
+Following few examples of Machine Learning Model we used 
+
+### Linear Regression Model
+
+![Linear model](https://user-images.githubusercontent.com/66500222/192357430-b2b0fd88-a4df-4885-8f0d-493a65fcf585.png)
+
+![Linear model 2 png ](https://user-images.githubusercontent.com/66500222/192357001-b5c6e4c6-f27e-4981-81c1-4d0522e22545.png)
+
+![Linear model 3](https://user-images.githubusercontent.com/66500222/192357023-d2c7b5ec-fa9d-40ee-b598-9ac4cbf98d94.png)
+
 
 #### Random Forest Classifier Model
 With crime data, there is a significant imbalance in the data when looking at violent vs non-violent crime.  In the Washington DC Crime dataset that we are analyzing here, there are 342,868 total crimes, where 62,339 or 18% are classified as violent crime.  
