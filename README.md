@@ -14,19 +14,22 @@ Understand patterns and gain insight into crimes in the DC police system to show
 ### Source of data
 
 We extracted dataset from kaggle website https://www.kaggle.com/code/sureshmelvinsigera/dc-metro-crime-data-statistics/data?select=dc_crime_add_vars.csv
-
 After extracting dataset, we will start cleaning the dataset to get a complete and well-structured dataset.
+
+Our presentation can be found here https://docs.google.com/presentation/d/1mw8nR32yU31KWpRjtfkAfK77qa5F_RMN_7IqjVhvO6o/edit?usp=sharing
 
 ### Questions we hope to answer (Motivation/Reason/Purpose)
 
 - Help solve and prevent crimes
 - Compare different years and finding reasons of crimes
+- Find the most dangerous areas in Washington DC 
 - Expand scope of analysis to include unstructured data and visualize this dataset
 - Obtain key knowledge neecessary for making infirmed decisions. 
 
 ## Summary 
 
-Transit stations are recognized as especially criminogenic areas. These stations can serve as "generators" of crime because they combine large volumes of people in certain geographic regions and times. They can also serve as "attractors" to criminals providing opportunities for crime. To reflect trends in crime, the number of crimes divided into ..... ( we could divide by areas or times like three time groups: peak hours, off-peak daytime hours and off-peak night hours). Main the DC police system includes theft, arson, assault, murder, sexual assault, robbery and burglary had a large dataset that includes when and where the incident occurred, what shift, type of offense and method used.
+Crime is a global concern that impacts individuals and society on a daily basis and negatively affects society. The ever increasing population along with the rise in urbanization has led to dramatic increases in criminal activities particularly in urban settings. While increased police presence has been documented to reduce increases in crime, police need to be able to plan for and respond effectively to criminal events, especially those that affect personal or public safety. 
+Transit stations are recognized as especially criminogenic areas. These stations can serve as "generators" of crime because they combine large volumes of people in certain geographic regions and times. They can also serve as "attractors" to criminals providing opportunities for crime. To reflect trends in crime, the number of crimes divided into areas, crime types, time group and others. Main crimes in the DC police system includes theft, arson, assault, murder, sexual assault, robbery and burglary had a large dataset that includes when and where the incident occurred, what shift, type of offense and method used.
 
 
 ## Machine Learning Model
