@@ -1,11 +1,17 @@
 
-# Crime in DC Metropolitan area
+#                         Crime in DC Metropolitan area
 
-## Overview of Final Project
+![image](https://user-images.githubusercontent.com/103547108/192336900-3f6abb1c-08b6-44c3-bc38-b81b782f4cbd.png)
 
 ### Project Goal
 
-Main goal of our project is to create a dashboard to analyse crime patterns in Washington DC from 2008 to 2017.
+Crime in Washington, D.C., is directly related to the city's demographics, geography, and unique criminal justice system.
+
+Law enforcement in Washington, D.C., is complicated by a network of overlapping federal and city agencies. The primary agency responsible for law enforcement in the District of Columbia is the Metropolitan Police Department (MPD). The MPD is a city agency headed by the Chief of Police, currently Robert J. Contee III, who is appointed by the mayor, Muriel Bowser.
+
+Contrary to the general belief that crimes happen at night or dark, in the nations capital most offensess or crimes happen during the evening.
+
+Our goal is to assist all police departments in the Washington DC Metro Area in cracking down on crime. We used publicly available data to predict crimes in the nations capital using attributes that are commonly used features by the MPD.
 
 ### Key Deliverables
 
@@ -26,19 +32,20 @@ After extracting dataset, we will start cleaning the dataset to get a complete a
 
 ## Summary 
 
-Transit stations are recognized as especially criminogenic areas. These stations can serve as "generators" of crime because they combine large volumes of people in certain geographic regions and times. They can also serve as "attractors" to criminals providing opportunities for crime. To reflect trends in crime, the number of crimes, we could divide by areas or times like three time groups: peak hours, off-peak daytime hours and off-peak night hours. Main the DC police system includes theft, arson, assault, murder, sexual assault, robbery and burglary had a large dataset that includes when and where the incident occurred, what shift, type of offense and method used.
+Transit stations are recognized as especially criminogenic areas. These stations can serve as "generators" of crime because they combine large volumes of people in certain geographic regions and times. They can also serve as "attractors" to criminals providing opportunities for crime. To reflect trends in crime, the number of crimes, we could divide by areas or times like three shifts: day, evening and midnight hours. Our Dataset includes top crime offenses theft, arson, assault, murder, sexual assault, robbery and burglary. The dataset also includes when and where the incident occurred, what police service area(psa), type of offense and method used.
 
 
 ## Machine Learning Model
-
-violent vs non-violent
-most common crimes commited
-GUN crimes on metro
-Most Dangerous Shift as DC Metro PD
-
+Linear Regression
+Logistic Regression
+Naive Bayes
+Random Forest Classifier
+Grid Search
+TPOT Classifier
+K-nearest neighbors
 
 #### Random Forest Classifier Model
-With crime data, there is a significant imbalance in the data when looking at violent vs non-violent crime.  In the Washington DC Crime dataset that we are analyzing here, there are 342,868 total crimes, where 62,339 or 18% are classified as violent crime.  
+With crime data, there is a significant imbalance in the data when looking at violent vs non-violent crime.  In the Washington DC Crime dataset that we are analyzing here, there are 48,232 total crimes, where 15,021 are classified as violent crime.  
 
 Since the data is both tabular and imbalanced, it is most practical to start out with a supervised machine learning model, the balanced random forest classifier.  Random forest algorithms work against overfitting, are capable of handling thousands of input variables without deletion, and run efficiently on large datasets.  
 
@@ -47,27 +54,19 @@ To use the random forest model, we will first need to pre-process the data into 
 After evaluating the model we can also calculate and rank the feature importance within the random forest model. This will tell us which features of the data are the best in contributing to the accurate prediction of violent vs non-violent crime. 
 
 
-
-#### Principal Component Analysis
-Alternatively, after working on the preprocessing steps of this project, we may find that we want to focus on reducing the number of features using principal compenent analysis when analyzing the crime dataset.  
-
-
 ## Database
 
 SQL database (Postgres)
 Mapbox
 WeatherPy
 Tableau (https://public.tableau.com/views/DCMetroCrimeFinal/CrimeMapperPSA?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+Jupyter Notebook
 
 #### Provisional Database 
 
 For this project we are going to store our data in PostgreSQL, where we can build tables and visualize the information in a structured way to facilitate future applications. 
-The first steps are to investigate and clean our dataset using a Jupyter notebook. Our dataset contains 32 columns and 320,190 rows. Some columns will be dropped while others will have some updates. The ultimate goal is to find patterns on violent vs not violent crimes. 
+The first steps are to investigate and clean our dataset using a Jupyter notebook. Our dataset contains 32 columns and 48,232 rows. Some columns will be dropped while others will have some updates. The ultimate goal is to find patterns on crimes committed per police service area. 
 
-The following image is a provisional ERD we will use to ctreate tables on PostgreSQL
-![DC_Crime.png](https://github.com/dhinton22/Group-Project/blob/Ana/Crime_ERD.png) 
+The following image is a provisional ERD we will use to create tables on PostgreSQL
 
-
-
-![Schema.png](https://github.com/dhinton22/Group-Project/blob/Ana/Schema.png)
-
+![image](https://user-images.githubusercontent.com/103547108/192339090-7ed6dc5b-e97f-4e2c-9601-2bd0d7d4c962.png)
