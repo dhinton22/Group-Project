@@ -7,7 +7,8 @@
 
 Main goal of our project is to create a dashboard to analyse crime patterns in Washington DC from 2020-2021.
 
-### Key Deliverables
+### Key Deliverables![Schema](https://user-images.githubusercontent.com/66500222/192367733-6bd3f03b-a14d-441f-95cc-bc7bf9aba04b.png)
+
 
 Understand patterns and gain insight into crimes in the DC police system to show trends over certain period of time. 
 
@@ -16,7 +17,7 @@ Understand patterns and gain insight into crimes in the DC police system to show
 We extracted dataset from kaggle website https://www.kaggle.com/code/sureshmelvinsigera/dc-metro-crime-data-statistics/data?select=dc_crime_add_vars.csv
 After extracting dataset, we will start cleaning the dataset to get a complete and well-structured dataset.
 
-Our presentation can be found here https://docs.google.com/presentation/d/1mw8nR32yU31KWpRjtfkAfK77qa5F_RMN_7IqjVhvO6o/edit?usp=sharing
+Google Slides presentation can be found here https://docs.google.com/presentation/d/1mw8nR32yU31KWpRjtfkAfK77qa5F_RMN_7IqjVhvO6o/edit?usp=sharing
 
 Dashboard located here https://public.tableau.com/views/DCMetroCrimeFinal/CrimeMapperPSA?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
@@ -100,10 +101,10 @@ Alternatively, after working on the preprocessing steps of this project, we may 
 
 ## Database
 
-SQL database (Postgres)
-Mapbox
-WeatherPy
-Tableau
+In this segment we used following tools:
+
+- SQL database (Postgres)
+- Tableau
 
 #### Provisional Database 
 
@@ -111,6 +112,12 @@ For this project we are going to store our data in PostgreSQL, where we can buil
 The first steps are to investigate and clean our dataset using a Jupyter notebook. Our dataset contains 32 columns and 320,190 rows. Some columns will be dropped while others will have some updates. The ultimate goal is to find patterns on violent vs not violent crimes. 
 
 The following image is a provisional ERD we will use to ctreate tables on PostgreSQL
+
 ![DC_Crime.png](https://github.com/dhinton22/Group-Project/blob/Ana/Crime_ERD.png) 
+
+And queries we used to create tables
+
+![Schema](https://user-images.githubusercontent.com/66500222/192368039-de823c8f-b4df-4313-bdee-f89072bb8183.png)
+
 
 
