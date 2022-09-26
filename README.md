@@ -7,7 +7,7 @@
 
 Main goal of our project is to create a dashboard to analyse crime patterns in Washington DC from 2020-2021.
 
-### Key Deliverables![Schema](https://user-images.githubusercontent.com/66500222/192367733-6bd3f03b-a14d-441f-95cc-bc7bf9aba04b.png)
+### Key Deliverables
 
 
 Understand patterns and gain insight into crimes in the DC police system to show trends over certain period of time. 
@@ -19,7 +19,7 @@ After extracting dataset, we will start cleaning the dataset to get a complete a
 
 Google Slides presentation can be found here https://docs.google.com/presentation/d/1mw8nR32yU31KWpRjtfkAfK77qa5F_RMN_7IqjVhvO6o/edit?usp=sharing
 
-Dashboard located here https://public.tableau.com/views/DCMetroCrimeFinal/CrimeMapperPSA?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+Dashboard located here  https://public.tableau.com/views/DCMetroCrimeFinal/CrimeMapperPSA?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
 ### Technology used
 
@@ -51,13 +51,10 @@ Dashboard located here https://public.tableau.com/views/DCMetroCrimeFinal/CrimeM
 - Expand scope of analysis to include unstructured data and visualize this dataset
 - Obtain key knowledge neecessary for making infirmed decisions. 
 
-## Summary 
-
-Crime is a global concern that impacts individuals and society on a daily basis and negatively affects society. The ever increasing population along with the rise in urbanization has led to dramatic increases in criminal activities particularly in urban settings. While increased police presence has been documented to reduce increases in crime, police need to be able to plan for and respond effectively to criminal events, especially those that affect personal or public safety. 
-Transit stations are recognized as especially criminogenic areas. These stations can serve as "generators" of crime because they combine large volumes of people in certain geographic regions and times. They can also serve as "attractors" to criminals providing opportunities for crime. To reflect trends in crime, the number of crimes divided into areas, crime types, time group and others. Main crimes in the DC police system includes theft, arson, assault, murder, sexual assault, robbery and burglary had a large dataset that includes when and where the incident occurred, what shift, type of offense and method used.
+## Results of Final project
 
 
-## Machine Learning Model
+### Machine Learning Model
 
 A crime is an intentional act that may cause physical or psychological harm, as well as property damage or damage, and may be punished by the state or other authority, depending on the gravity of the crime. The number and forms of criminal activity are growing at an alarming rate, forcing departments to develop effective methods of preventive measures. In the current scenario of a rapid increase in crime, traditional methods of solving crimes cannot work because they are slow and less effective. Thus, if we can come up with ways to predict crime, or come up with a “machine” that can assist police officers, it would lift the burden of police and help in preventing crimes. A machine learning method that excels at solving classification and prediction problems have also been shown to be a useful tool for dealing with big data driven environments such as law enforcement.
 
@@ -120,4 +117,8 @@ And queries we used to create tables
 ![Schema](https://user-images.githubusercontent.com/66500222/192368039-de823c8f-b4df-4313-bdee-f89072bb8183.png)
 
 
+## Summary 
+
+Crime is a global concern that impacts individuals and society on a daily basis and negatively affects society. The ever increasing population along with the rise in urbanization has led to dramatic increases in criminal activities particularly in urban settings. While increased police presence has been documented to reduce increases in crime, police need to be able to plan for and respond effectively to criminal events, especially those that affect personal or public safety. 
+Transit stations are recognized as especially criminogenic areas. These stations can serve as "generators" of crime because they combine large volumes of people in certain geographic regions and times. They can also serve as "attractors" to criminals providing opportunities for crime. To reflect trends in crime, the number of crimes divided into areas, crime types, time group and others. Main crimes in the DC police system includes theft, arson, assault, murder, sexual assault, robbery and burglary had a large dataset that includes when and where the incident occurred, what shift, type of offense and method used.
 
