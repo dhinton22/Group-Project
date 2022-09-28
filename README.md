@@ -135,6 +135,11 @@ The following image is a provisional ERD we will use to ctreate tables on Postgr
 
 ![DC_Crime.png](https://github.com/dhinton22/Group-Project/blob/Ana/Crime_ERD.png) 
 
+
+
+![image](https://user-images.githubusercontent.com/103547108/192339090-7ed6dc5b-e97f-4e2c-9601-2bd0d7d4c962.png)
+
+
 And queries we used to create tables
 
 ![Schema](https://user-images.githubusercontent.com/66500222/192368039-de823c8f-b4df-4313-bdee-f89072bb8183.png)
@@ -148,8 +153,3 @@ Transit stations are recognized as especially criminogenic areas. These stations
 
  The results of our analysis made it clear that the shift that have highest crime rate is usually evenings, depending on the type of crime it could be daytime. Top crime types in DC areas are different types of theft, motor vehicle theft, or theft featuring auto, etc. In contrast arson, homicide and sex abuse are least committed crimes. We might prevent crimes if we increase police patrol in the high crime areas and increase security cameras that could help in crime investigations. Since our dataset does not include age, gender, or ethnicity, we could not fully detect the classification of a violent crime based on the victim's characteristics. 
 
-
-
-The following image is a provisional ERD we will use to create tables on PostgreSQL
-
-![image](https://user-images.githubusercontent.com/103547108/192339090-7ed6dc5b-e97f-4e2c-9601-2bd0d7d4c962.png)
