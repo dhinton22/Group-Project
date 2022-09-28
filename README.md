@@ -129,7 +129,7 @@ https://public.tableau.com/views/DCMetroCrimeFinal/VolumeofCrimeperPSA?:language
 
 For this project we are going to store our data in PostgreSQL, where we can build tables and visualize the information in a structured way to facilitate future applications. 
 
-The first steps are to investigate and clean our dataset using a Jupyter notebook. Our dataset contains 32 columns and 320,190 rows. Some columns will be dropped while others will have some updates. The ultimate goal is to find patterns on violent vs not violent crimes. 
+The first steps are to investigate and clean our dataset using a Jupyter notebook. Our dataset contains 32 columns and 48,232 rows. Some columns will be dropped while others will have some updates. The ultimate goal is to find patterns on crimes committed per police service area. 
 
 The following image is a provisional ERD we will use to ctreate tables on PostgreSQL
 
@@ -146,7 +146,7 @@ Crime is a global concern that impacts individuals and society on a daily basis 
 
 Transit stations are recognized as especially criminogenic areas. These stations can serve as "generators" of crime because they combine large volumes of people in certain geographic regions and times. They can also serve as "attractors" to criminals providing opportunities for crime. To reflect trends in crime, the number of crimes divided into areas, crime types, time group and others. Main crimes in the DC police system includes theft, arson, assault, murder, sexual assault, robbery and burglary had a large dataset that includes when and where the incident occurred, what shift, type of offense and method used.
 
-The first steps are to investigate and clean our dataset using a Jupyter notebook. Our dataset contains 32 columns and 48,232 rows. Some columns will be dropped while others will have some updates. The ultimate goal is to find patterns on crimes committed per police service area.  The results of our analysis made it clear that the shift that have highest crime rate is usually evenings, depending on the type of crime it could be daytime. Top crime types in DC areas are different types of theft, motor vehicle theft, or theft featuring auto, etc. In contrast arson, homicide and sex abuse are least committed crimes. We might prevent crimes if we increase police patrol in the high crime areas and increase security cameras that could help in crime investigations. Since our dataset does not include age, gender, or ethnicity, we could not fully detect the classification of a violent crime based on the victim's characteristics. 
+ The results of our analysis made it clear that the shift that have highest crime rate is usually evenings, depending on the type of crime it could be daytime. Top crime types in DC areas are different types of theft, motor vehicle theft, or theft featuring auto, etc. In contrast arson, homicide and sex abuse are least committed crimes. We might prevent crimes if we increase police patrol in the high crime areas and increase security cameras that could help in crime investigations. Since our dataset does not include age, gender, or ethnicity, we could not fully detect the classification of a violent crime based on the victim's characteristics. 
 
 
 
