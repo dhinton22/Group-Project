@@ -40,11 +40,7 @@ Transit stations are recognized as especially criminogenic areas. These stations
 ## Machine Learning Model
 Linear Regression
 Logistic Regression
-Naive Bayes
-Random Forest Classifier
-Grid Search
-TPOT Classifier
-K-nearest neighbors
+
 
 ## Database
 
