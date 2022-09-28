@@ -29,12 +29,6 @@ Dashboard located here  https://public.tableau.com/views/DCMetroCrimeFinal/Crime
 
   - Logistic Regression
 
-  - Classification and Regression Trees - Decision Trees
-
-  - K-Nearest Neighbors
-
-  - Random Forest
-
 - Python Pandas
 
 - Matplotlib
@@ -67,13 +61,21 @@ Following few examples of Machine Learning Model we used
 
 ### Linear Regression Model
 
+![Linear model](https://user-images.githubusercontent.com/66500222/192842987-f304bab7-f1d3-448a-a11a-6da629e28e16.png)
+
+![Linear model 2 png ](https://user-images.githubusercontent.com/66500222/192843004-c4505772-991b-46aa-960f-3d417b04f77f.png)
 
 
-![Linear model](https://user-images.githubusercontent.com/66500222/192357430-b2b0fd88-a4df-4885-8f0d-493a65fcf585.png)
+![Linear model 3](https://user-images.githubusercontent.com/66500222/192843036-fd22a97c-fd6e-47fd-a6a5-613b362948b9.png)
 
-![Linear model 2 png ](https://user-images.githubusercontent.com/66500222/192357001-b5c6e4c6-f27e-4981-81c1-4d0522e22545.png)
+### Logistic Regression Model
 
-![Linear model 3](https://user-images.githubusercontent.com/66500222/192357023-d2c7b5ec-fa9d-40ee-b598-9ac4cbf98d94.png)
+
+![Logistic model ](https://user-images.githubusercontent.com/66500222/192843278-3282531f-20ed-4ed0-9919-257807183397.png)
+
+
+![Logistic model 1](https://user-images.githubusercontent.com/66500222/192843300-18ff3483-5e5c-4822-ae6c-19bd131124e7.png)
+
 
 
 #### Random Forest Classifier Model
@@ -86,10 +88,6 @@ To use the random forest model, we will first need to pre-process the data into 
 After evaluating the model we can also calculate and rank the feature importance within the random forest model. This will tell us which features of the data are the best in contributing to the accurate prediction of violent vs non-violent crime. 
 
 ![Random ](https://user-images.githubusercontent.com/66500222/192363820-1109cb5d-55c4-4d8a-b195-3dc69ab491f9.png)
-
-### KNN 
-
-![knn ](https://user-images.githubusercontent.com/66500222/192363862-76abdf30-f90e-44f7-af8f-bf56e88c4d99.png)
 
 
 #### Principal Component Analysis
