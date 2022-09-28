@@ -13,6 +13,10 @@ Contrary to the general belief that crimes happen at night or dark, in the natio
 
 Our goal is to assist all police departments in the Washington DC Metro Area in cracking down on crime. We used publicly available data to predict crimes in the nations capital using attributes that are commonly used features by the MPD.
 
+View powerpoint presentation for detailed story. 
+
+https://github.com/dhinton22/Group-Project/blob/00d03de6a661e2c5c2e9c7b087690c8347bb58fb/DC%20Metro%20Crime%20(1).pptx
+
 ### Project Goal
 
 Main goal of our project is to create a dashboard to analyse crime patterns in Washington DC from 2020-2021.
@@ -152,4 +156,3 @@ Crime is a global concern that impacts individuals and society on a daily basis 
 Transit stations are recognized as especially criminogenic areas. These stations can serve as "generators" of crime because they combine large volumes of people in certain geographic regions and times. They can also serve as "attractors" to criminals providing opportunities for crime. To reflect trends in crime, the number of crimes divided into areas, crime types, time group and others. Main crimes in the DC police system includes theft, arson, assault, murder, sexual assault, robbery and burglary had a large dataset that includes when and where the incident occurred, what shift, type of offense and method used.
 
  The results of our analysis made it clear that the shift that have highest crime rate is usually evenings, depending on the type of crime it could be daytime. Top crime types in DC areas are different types of theft, motor vehicle theft, or theft featuring auto, etc. In contrast arson, homicide and sex abuse are least committed crimes. We might prevent crimes if we increase police patrol in the high crime areas and increase security cameras that could help in crime investigations. Since our dataset does not include age, gender, or ethnicity, we could not fully detect the classification of a violent crime based on the victim's characteristics. 
-
