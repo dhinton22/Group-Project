@@ -116,11 +116,10 @@ In this segment we used following tools:
 
 - SQL database (Postgres)
 - Tableau
-
-    SQL database (Postgres)
-    Mapbox
-    Jupyter Notebook
-    Tableau 
+  - SQL database (Postgres)
+  - Mapbox
+  - Jupyter Notebook
+  - Tableau 
     
 Tableau Dashboard link:
 https://public.tableau.com/views/DCMetroCrimeFinal/VolumeofCrimeperPSA?:language=en-US&:display_count=n&:origin=viz_share_link
