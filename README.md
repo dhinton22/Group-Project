@@ -1,7 +1,17 @@
 
 # Crime in DC Metropolitan area
 
+![image](https://user-images.githubusercontent.com/103547108/192356350-73ee63a9-2e02-469b-80a2-8d9b2c87eb3e.png)
+
 ## Overview of Final Project
+
+Crime in Washington, D.C., is directly related to the city's demographics, geography, and unique criminal justice system.
+
+Law enforcement in Washington, D.C., is complicated by a network of overlapping federal and city agencies. The primary agency responsible for law enforcement in the District of Columbia is the Metropolitan Police Department (MPD). The MPD is a city agency headed by the Chief of Police, currently Robert J. Contee III, who is appointed by the mayor, Muriel Bowser.
+
+Contrary to the general belief that crimes happen at night or dark, in the nations capital most offensess or crimes happen during the evening.
+
+Our goal is to assist all police departments in the Washington DC Metro Area in cracking down on crime. We used publicly available data to predict crimes in the nations capital using attributes that are commonly used features by the MPD.
 
 ### Project Goal
 
@@ -11,6 +21,7 @@ Main goal of our project is to create a dashboard to analyse crime patterns in W
 
 
 Understand patterns and gain insight into crimes in the DC police system to show trends over certain period of time and obtain key knowledge neecessary for making infirmed decisions. 
+
 
 ### Source of data
 
@@ -37,7 +48,8 @@ Dashboard located here  https://public.tableau.com/views/DCMetroCrimeFinal/Crime
 
 - Tableau
 
-### Questions we hope to answer (Motivation/Reason/Purpose)
+
+### Questions we hope to answer 
 
 - Help solve and prevent crimes
 - Compare different years and finding reasons of crimes
@@ -60,7 +72,9 @@ A crime is an intentional act that may cause physical or psychological harm, as 
 
 Following few examples of Machine Learning Model we used 
 
+
 ### Linear Regression Model
+
 
 ![Linear model](https://user-images.githubusercontent.com/66500222/192842987-f304bab7-f1d3-448a-a11a-6da629e28e16.png)
 
@@ -95,6 +109,7 @@ After evaluating the model we can also calculate and rank the feature importance
 Alternatively, after working on the preprocessing steps of this project, we may find that we want to focus on reducing the number of features using principal compenent analysis when analyzing the crime dataset.  
 
 
+
 ## Database
 
 In this segment we used following tools:
@@ -102,9 +117,19 @@ In this segment we used following tools:
 - SQL database (Postgres)
 - Tableau
 
+    SQL database (Postgres)
+    Mapbox
+    Jupyter Notebook
+    Tableau 
+    
+Tableau Dashboard link:
+https://public.tableau.com/views/DCMetroCrimeFinal/VolumeofCrimeperPSA?:language=en-US&:display_count=n&:origin=viz_share_link
+
+
 #### Provisional Database 
 
 For this project we are going to store our data in PostgreSQL, where we can build tables and visualize the information in a structured way to facilitate future applications. 
+
 The first steps are to investigate and clean our dataset using a Jupyter notebook. Our dataset contains 32 columns and 320,190 rows. Some columns will be dropped while others will have some updates. The ultimate goal is to find patterns on violent vs not violent crimes. 
 
 The following image is a provisional ERD we will use to ctreate tables on PostgreSQL
@@ -122,4 +147,10 @@ Crime is a global concern that impacts individuals and society on a daily basis 
 
 Transit stations are recognized as especially criminogenic areas. These stations can serve as "generators" of crime because they combine large volumes of people in certain geographic regions and times. They can also serve as "attractors" to criminals providing opportunities for crime. To reflect trends in crime, the number of crimes divided into areas, crime types, time group and others. Main crimes in the DC police system includes theft, arson, assault, murder, sexual assault, robbery and burglary had a large dataset that includes when and where the incident occurred, what shift, type of offense and method used.
 
-The results of our analysis made it clear that the shift that have highest crime rate is usually evenings, depending on the type of crime it could be daytime. Top crime types in DC areas are different types of theft, motor vehicle theft, or theft featuring auto, etc. In contrast arson, homicide and sex abuse are least committed crimes. We might prevent crimes if we increase police patrol in the high crime areas and increase security cameras that could help in crime investigations. Since our dataset does not include age, gender, or ethnicity, we could not fully detect the classification of a violent crime based on the victim's characteristics. 
+The first steps are to investigate and clean our dataset using a Jupyter notebook. Our dataset contains 32 columns and 48,232 rows. Some columns will be dropped while others will have some updates. The ultimate goal is to find patterns on crimes committed per police service area.  The results of our analysis made it clear that the shift that have highest crime rate is usually evenings, depending on the type of crime it could be daytime. Top crime types in DC areas are different types of theft, motor vehicle theft, or theft featuring auto, etc. In contrast arson, homicide and sex abuse are least committed crimes. We might prevent crimes if we increase police patrol in the high crime areas and increase security cameras that could help in crime investigations. Since our dataset does not include age, gender, or ethnicity, we could not fully detect the classification of a violent crime based on the victim's characteristics. 
+
+
+
+The following image is a provisional ERD we will use to create tables on PostgreSQL
+
+![image](https://user-images.githubusercontent.com/103547108/192339090-7ed6dc5b-e97f-4e2c-9601-2bd0d7d4c962.png)
